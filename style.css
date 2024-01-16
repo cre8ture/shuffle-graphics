@@ -1,0 +1,31 @@
+:root {
+    --base-font-size: 16px;
+  }
+  
+  html, body {
+    height: 100%;
+    overflow: auto;
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    height: 100vh;
+  }
+  
+
+  .row {
+    width: 100vw;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    overflow: hidden; /* Prevents text from overflowing */
+    white-space: nowrap; /* Keeps the text on a single line */
+}
